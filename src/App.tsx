@@ -15,7 +15,7 @@ function App() {
         flickerChance={0.1}
       />
 
-      <main className="flex flex-col gap-4 bg-zinc-950 min-h-[100dvh] justify-between">
+      <main className="flex flex-col gap-4 bg-zinc-950 min-h-[100dvh] justify-between min-w-[100dvw]">
         <Hero />
         <MainContent />
         <Footer />
